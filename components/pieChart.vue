@@ -52,9 +52,11 @@ module.exports = {
 
       // Put a thick white border around each Slice
       pieSeries.slices.template.stroke = am4core.color("#4a2abb");
-      pieSeries.slices.template.strokeWidth = 2;
+      pieSeries.slices.template.strokeWidth = 1;
       pieSeries.slices.template.strokeOpacity = 1;
-
+      pieSeries.labels.template.text = "{category}";
+      pieSeries.ticks.template.disabled = true;
+      pieSeries.alignLabels = false;
       this.chart = chart;
     },
   },
@@ -65,6 +67,6 @@ module.exports = {
 <style scoped>
 #pieChartDiv {
   width: 100%;
-  height: 500px;
+  height: 300px;
 }
 </style>
