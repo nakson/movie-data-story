@@ -4,7 +4,7 @@ This is a web-based data story.
 
 ### How to run:
 
-Live server of Visual Studio Code or View here
+Live server of Visual Studio Code or View at https://nakson.github.io/movie-data-story/
 
 ### Description:
 
