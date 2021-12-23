@@ -178,7 +178,7 @@ let app = new Vue({
     },
   },
   components: {
-    Test: httpVueLoader("./components/Test.vue"),
+    D3barchart: httpVueLoader("./components/D3barchart.vue"),
     Wordchart: httpVueLoader("./components/Wordcloud.vue"),
     Piechart: httpVueLoader("./components/pieChart.vue"),
     Barchart: httpVueLoader("./components/barChart.vue"),
